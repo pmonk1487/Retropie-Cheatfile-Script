@@ -29,7 +29,7 @@ while more=="Yes":
         more=raw_input("MUST be \'Yes\' or \'No\'").title()
 
 #Write to file
-filename=str(raw_input("Save To...?"))
+filename=str(raw_input("Save To...?"))+".cht"
 
 file = open(filename,'w') 
  
